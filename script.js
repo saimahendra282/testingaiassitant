@@ -4,7 +4,7 @@
 let slideIndex = 0;
 showSlides();
 
-function showSlides() {
+function showSlides() { 
     let i;
     let slides = document.getElementsByClassName("hero-slide"); // Add this class to your img elements if using multiple slides.
     if (slides && slides.length > 0) {  // Check if slides exist
